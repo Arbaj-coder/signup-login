@@ -27,7 +27,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `http://localhost:8080/auth/login`;
+            const url = `https://signup-login-api-wbk2.onrender.com/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

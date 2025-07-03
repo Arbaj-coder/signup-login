@@ -22,7 +22,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = 'http://localhost:8080/products';
+      const url = 'https://signup-login-api-wbk2.onrender.com/products';
       const token = localStorage.getItem('token');
 
       const response = await fetch(url, {
